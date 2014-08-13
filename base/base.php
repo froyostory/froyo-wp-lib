@@ -15,7 +15,7 @@ class Base {
 	 * @return string - return a link
 	 */
 	public static function pageLinkByTitle($title) {
-		$page = get_page_by_title($name);
+		$page = get_page_by_title($title);
   	return get_page_link($page->ID);
 	}
 
